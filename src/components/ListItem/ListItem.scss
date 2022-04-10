@@ -1,0 +1,41 @@
+.completed{
+    opacity: .7;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #BCD9FB;
+    border-bottom: 1px solid #BCD9FB;
+    &:last-of-type{
+        border-bottom: none;
+    }
+    .icons{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        .close{
+            color: #fc6461;
+            cursor: pointer;
+            font-size: 20px;
+
+        }
+        .check{
+            color: #719E41;
+            cursor: pointer;
+            font-size: 20px;
+
+        }
+        .delete{
+            color: red;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+}
